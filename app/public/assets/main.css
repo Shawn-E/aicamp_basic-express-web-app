@@ -1,0 +1,52 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap'); /* font-family: 'Exo', sans-serif; */
+
+body {
+    background-color: rgb(3, 45, 99);
+    font-family: 'Exo', sans-serif;
+}
+
+.container {
+    padding: 0% 10%;
+}
+
+.header {
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+#divider {
+    margin-bottom: 2em;
+}
+.content ul {
+    color: #fff;
+}
+
+#text01 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+}
+
+#text02 {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+}
+
+#text03 {
+    font-size: 1em;
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: red;
+}

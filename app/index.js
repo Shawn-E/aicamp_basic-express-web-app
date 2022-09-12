@@ -25,7 +25,7 @@ app.set('view engine', 'ejs');
 
 // Routing
 app.get('/', async function(req, res) {
-    res.render('index.ejs', { });
+    res.render('index.ejs', { var1: "Hello World v1", query: req.query.message});
 });
 
 
